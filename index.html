@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kalin &amp; Anthony — Save the Date</title>
+  <meta name="description" content="Kalin &amp; Anthony are getting married — May 15, 2027, San Diego, California." />
+
+  <!-- Private: keep this page out of search engines (invite-by-URL only) -->
+  <meta name="robots" content="noindex, nofollow, noarchive, noimageindex, nosnippet" />
+
+  <!-- Favicons -->
+  <link rel="icon" href="favicon.ico" sizes="32x32" />
+  <link rel="icon" href="favicon.svg" type="image/svg+xml" />
+  <link rel="icon" type="image/png" sizes="96x96" href="favicon-96.png" />
+  <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;1,300;1,400&family=Jost:wght@300;400;500&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <!-- ============================== HERO ============================== -->
+  <header class="hero">
+    <div class="petals" id="petals" aria-hidden="true"></div>
+
+    <div class="hero__inner">
+      <div class="eyebrow rule reveal">
+        <span class="line"></span>
+        <span class="label">Save the Date</span>
+        <span class="line r"></span>
+      </div>
+
+      <figure class="arch reveal">
+        <div class="arch__photo">
+          <div class="arch__slides" id="archSlides"></div>
+        </div>
+      </figure>
+
+      <h1 class="names reveal">KALIN &amp; ANTHONY</h1>
+
+      <div class="meta reveal">
+        <div class="rule">
+          <span class="line"></span>
+          <span class="diamond"></span>
+          <span class="line r"></span>
+        </div>
+        <p class="date">05 . 15 . 27</p>
+        <p class="place">San Diego, California</p>
+      </div>
+
+      <a class="scroll-cue reveal" href="#countdown" aria-label="Scroll to countdown">
+        <span>The countdown begins</span>
+        <span class="chev"></span>
+      </a>
+    </div>
+  </header>
+
+  <!-- ============================== COUNTDOWN ============================== -->
+  <section class="count" id="countdown">
+    <div class="count__inner">
+      <div class="rule reveal">
+        <span class="line"></span>
+        <span class="label">Counting down to forever</span>
+        <span class="line r"></span>
+      </div>
+
+      <p class="count__title reveal">until we say <em>I&nbsp;do</em></p>
+
+      <div class="clock reveal" role="timer" aria-live="off">
+        <div class="unit"><div class="unit__num" id="d">—</div><div class="unit__lab">Days</div></div>
+        <div class="unit"><div class="unit__num" id="h">—</div><div class="unit__lab">Hours</div></div>
+        <div class="unit"><div class="unit__num" id="m">—</div><div class="unit__lab">Minutes</div></div>
+        <div class="unit"><div class="unit__num" id="s">—</div><div class="unit__lab">Seconds</div></div>
+      </div>
+
+      <div class="count__foot reveal">
+        <p class="count__date">May 15, 2027 &nbsp;·&nbsp; San Diego, California</p>
+        <p class="count__note">We can't wait to celebrate with you.</p>
+        <p class="count__sig">Kalin <span class="amp">&amp;</span> Anthony</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
